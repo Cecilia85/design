@@ -1,0 +1,39 @@
+.jumbotron{
+  height: 400px;
+  background-image:linear-gradient(#ff3300, transparent 70%),
+   url("../img/9dejulio.gif");
+  color: white;
+  text-align: center;
+}
+
+#logo{
+  width: 400px;
+  margin-top: -80px;
+}
+
+a{
+  color: #ff3300;
+  font-family: Courier;
+}
+
+h3{
+  color: black;
+  font-family: Courier;
+}
+
+#contactform{
+  position: fixed;
+  margin-left: 240px;
+  margin-top: 50px;
+}
+
+#button{
+  background-color:#ff3300;
+  color: white;
+  font-family: Courier;
+  border-radius: 5px;
+}
+
+#first_name, #email, #comments{
+  font-family: Courier;
+}

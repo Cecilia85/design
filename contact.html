@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/contact_styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cecilia Le Brech Design</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <img id="logo" src="img/logo2.png" alt="logo"/>
+   </div>
+   <div class="container">
+     <ul class="nav nav-tabs">
+  <li role="presentation"><a href="index.html">Home</a></li>
+  <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+  <li role="presentation"class="active"><a href="contact.html">Contact</a></li>
+</ul>
+
+
+<div id="contactform">
+   <form name="contactform" method="post" action="send_form_email.php">
+
+<table width="450px">
+
+<tr>
+
+ <td valign="top">
+
+  <label id="first_name" for="first_name">First Name *</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="first_name" maxlength="50" size="30">
+
+ </td>
+
+</tr>
+
+
+
+<tr>
+
+ <td valign="top">
+
+  <label id="email" for="email">Email Address *</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="email" maxlength="80" size="30">
+
+ </td>
+
+</tr>
+
+
+
+<tr>
+
+ <td valign="top">
+
+  <label id="comments" for="comments">Comments *</label>
+
+ </td>
+
+ <td valign="top">
+
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+
+ </td>
+
+</tr>
+
+<tr >
+
+ <td colspan="2" style="text-align:center">
+
+  <input id="button" type="submit" value="Submit">
+
+ </td>
+
+</tr>
+
+</table>
+
+</form>
+</div>
+
+ </div>
+  </body>
+</html>
