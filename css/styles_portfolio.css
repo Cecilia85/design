@@ -1,0 +1,101 @@
+.jumbotron{
+  height: 400px;
+  background-image:linear-gradient(#ff3300, transparent 70%),
+   url("../img/9dejulio.gif");
+  color: white;
+  text-align: center;
+}
+
+#logo{
+  width: 400px;
+  margin-top: -80px;
+}
+
+a{
+  color: #ff3300;
+  font-family: Courier;
+}
+
+h3{
+  color: black;
+  font-family: Courier;
+}
+
+h4{
+  color:black;
+  font-family: Courier;
+}
+
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelf,#thirthteen,#fourthteen,#fifthteen,#sixthteen{
+  border-radius: 10px;
+
+}
+#one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#ten:hover,#eleven:hover,
+#twelf:hover,#thirthteen:hover, #fourthteen:hover, #fifthteen:hover, #sixthteen:hover {
+  opacity: 0.5;
+   filter: gray;
+ -webkit-filter: grayscale(100%);
+}
+#one:active,#two:active,#three:active,#four:active,#five:active,#six:active,#seven:active,#eight:active,#nine:active,#ten:active,#eleven:hover,
+#twelf:active,#thirthteen:active, #fourthteen:active, #fifthteen:active, #sixthteen:active {
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Courier;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 1000px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background:white;
+
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+#openModal, #openModal2,#openModal3,#openModal4,#openModal5,#openModal6,#openModal7,#openModal8,#openModal9,#openModal10,#openModal11,
+#openModal12,#openModal13, #openModal14,#openModal15,#openModal16 {
+  text-align: center;
+
+}
