@@ -1,10 +1,14 @@
-.jumbotron{
-  height: 400px;
-  background-image:linear-gradient(#ff3300, transparent 70%),
-   url("../img/9dejulio.gif");
-  color: white;
+#logo{
+  width: 400px;
+  margin-top: -80px;
+  position: relative;
+  z-index: 4;
+
+}
+#logo_wrapper{
   text-align: center;
 }
+
 a{
   color: #ff3300;
   font-family: Courier;
@@ -18,13 +22,19 @@ h1{
   letter-spacing: 4px;
 
 }
-#logo{
-  width: 400px;
-  margin-top: -80px;
+
+.container{
+  width:80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -50px;
+
 }
+
 h3{
   color: black;
   font-family: Courier;
+
 }
 
 h4{
@@ -43,4 +53,27 @@ a{
 p{
   color:#262626;
   font-family:Courier;
+
+}
+
+
+/*//Slider//*/
+
+#cycler{
+
+  margin:0;
+  padding:0;
+  z-index:1;
+}
+#cycler img{
+  position: absolute;
+  z-index:1;
+  margin:0;
+  padding:0;
+
+}
+#cycler img.active{
+  z-index:3;
+  margin: 0;
+  padding: 0;
 }

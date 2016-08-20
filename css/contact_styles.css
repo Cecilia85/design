@@ -1,7 +1,6 @@
 .jumbotron{
   height: 400px;
-  background-image:linear-gradient(#ff3300, transparent 70%),
-   url("../img/9dejulio.gif");
+  background-image:url("../img/avenidados.gif");
   color: white;
   text-align: center;
 }
@@ -9,6 +8,11 @@
 #logo{
   width: 400px;
   margin-top: -80px;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
 }
 
 a{
@@ -36,4 +40,7 @@ h3{
 
 #first_name, #email, #comments{
   font-family: Courier;
+}
+form{
+  text-align: center;
 }
