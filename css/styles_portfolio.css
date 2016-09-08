@@ -12,6 +12,7 @@
 .container{
   width:80%;
   margin: 0 auto;
+
 }
 a{
   color: #ff3300;
@@ -29,8 +30,15 @@ h4{
 }
 
 
-#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelf,#thirthteen,#fourthteen,#fifthteen,#sixthteen{
+#one,#two,#three,#four,#five,#six,#seven,#eight{
   border-radius: 10px;
+  width: 100px;
+
+
+}
+#nine,#ten,#eleven,#twelf,#thirthteen,#fourthteen,#fifthteen,#sixthteen{
+  border-radius: 10px;
+  width: 100px;
 
 }
 #one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#ten:hover,#eleven:hover,
